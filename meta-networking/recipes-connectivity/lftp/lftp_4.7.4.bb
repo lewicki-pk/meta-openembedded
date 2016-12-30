@@ -6,11 +6,11 @@ SECTION = "console/network"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 
-SRC_URI = "http://fossies.org/linux/misc/lftp-${PV}.tar.gz \
+SRC_URI = "http://fossies.org/linux/misc/lftp-${PV}.tar.bz2 \
            file://fix-gcc-6-conflicts-signbit.patch \
           "
-SRC_URI[md5sum] = "8eb1fe5f113126b60f172643c7f6c2e6"
-SRC_URI[sha256sum] = "ce6519831603c19c2cf2e3c10b41d6ddc87a16049b99383e7b9b77fbc7707214"
+SRC_URI[md5sum] = "7b54407ab24c1e78b45fe445d83eb5fd"
+SRC_URI[sha256sum] = "95e7acfd9d0a2addeded1f00794aeeac43952ebc4924043965a5e1619df29128"
 
 inherit autotools gettext pkgconfig
 
